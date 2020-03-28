@@ -16,8 +16,8 @@ tags:
 counts = dict() 
 names = ['bob', 'dyan', 'rachel', 'ross', 'bob', 'rachel', 'rachel'] 
 for name in names: 
-    counts[name] = counts.get(name, 0) + 1 print(counts)
-
+    counts[name] = counts.get(name, 0) + 1 
+    print(counts)
 ```
 
 ```python
