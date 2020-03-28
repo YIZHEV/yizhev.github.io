@@ -54,18 +54,19 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: rouge
 
 
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: yizhev
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: a0bb3f4ee90aa5ea9d2a                            #生成的clientID 自己的
-  clientSecret: 3307c4e68fb3e3db091e621d531c16b1b6229465    #生成的clientSecret 自己的
+  clientID: a0bb3f4ee90aa5ea9d2a                            #生成的clientID      自己的
+  clientSecret: 3307c4e68fb3e3db091e621d531c16b1b6229465    #生成的clientSecret  自己的
   repo: YIZHEV.github.io    #仓库名称
   owner: YIZHEV    #github用户名
   admin: YIZHEV
